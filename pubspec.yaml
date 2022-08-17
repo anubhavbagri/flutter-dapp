@@ -31,6 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^0.13.5
+  provider: ^6.0.3
   web_socket_channel: ^2.2.0
 
 dependency_overrides:
