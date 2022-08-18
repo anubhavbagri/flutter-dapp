@@ -7,10 +7,10 @@ import 'package:web3dart/web3dart.dart';
 import 'package:web_socket_channel/io.dart';
 
 class ContractLinking extends ChangeNotifier {
-  final String _rpcUrl = "http://127.0.0.1:7545";
-  final String _wsUrl = "ws://127.0.0.1:7545"; // web socket url
+  final String _rpcUrl = "http://192.168.29.147:7545";
+  final String _wsUrl = "ws://192.168.29.147:7545"; // web socket url
   final String _privateKey =
-      "ffc2953fe6d93b7b72a94370274f188a6f6b7f21fdd02fff250c8ee194084626";
+      "0d7cb2c505e270562719970ada96fb6581fbe2cc829cb5399a4e77c64a2bb456";
 
   Web3Client? _web3client; // helps in establishing in connection
   bool isLoading = true;
