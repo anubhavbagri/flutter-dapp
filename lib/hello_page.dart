@@ -25,7 +25,11 @@ class HelloPage extends StatelessWidget {
                     child: Column(
                       children: [
                         Text(
-                          'Welcome to Hello World dApp ${contractLink.deployedName}',
+                          'Welcome to dApp ${contractLink.deployedName}',
+                          style: const TextStyle(
+                            color: Colors.green,
+                            fontSize: 20,
+                          ),
                         ),
                         TextFormField(
                           controller: _messageController,
