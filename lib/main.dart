@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       create: (context) => ContractLinking(),
       child: MaterialApp(
         title: 'Flutter dApp',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
